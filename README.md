@@ -15,6 +15,7 @@ ifunny(false, function (err, res) {
 //    ]
 })
 ```
+(if you want the results to be shuffled, change the boolean to true!)
 
 ## TODO
 
