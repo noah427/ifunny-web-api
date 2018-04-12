@@ -1,0 +1,27 @@
+{
+  "name": "ifunny",
+  "version": "1.0.0",
+  "description": "Simple API for iFunny",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bakapear/ifunny.git"
+  },
+  "keywords": [
+    "ifunny",
+    "api"
+  ],
+  "author": "bakapear",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bakapear/ifunny/issues"
+  },
+  "homepage": "https://github.com/bakapear/ifunny#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "got": "^8.3.0"
+  }
+}
