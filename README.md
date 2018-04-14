@@ -19,18 +19,20 @@ ifunny({shuffle: false}, function (err, res) {
 
 ## Output
 ```js
-{ error: null,
-  result: 
-   [ { url: 'https://ifunny.co/fun/BG1TZ8Fg5',
-       img: 'https://img.ifcdn.com/images/58b624c7bbeb8005e16452aa4fd850c1b6096431a2ea04a2b7e4da38a0102212_1.jpg',
-       tags: 'Very funny :) - iFunny :)' },
-     { url: 'https://ifunny.co/fun/AKztx9if5',
-       img: 'https://img.ifcdn.com/images/f101d7c150f5893a72ccfa764d879a3e9294dcd52f0f7053278c4b4496a9523f_1.jpg',
-       tags: 'unicorn, comic - iFunny :)' },
-     { url: 'https://ifunny.co/fun/e6zBtjCg5',
-       img: 'https://img.ifcdn.com/images/c7c37c880306ecb24f95081e90ea0d4b378da7b1293ab561a354342e6b4d3cd9_3.jpg',
-       tags: 'Yummy  breakfast - iFunny :)' },
-       [...]
+[ { type: 'jpg',
+    src: 'https://img.ifcdn.com/images/ab45b4c82485dd766884d01036d4ac24d4f32d7f_1.jpg',
+    url: 'https://ifunny.co/fun/2l08Z86W?gallery=shuffle',
+    tags: 'kristen, cat - iFunny :)' },
+  { type: 'mp4',
+    src: 'https://img.ifcdn.com/videos/e01bfd9286aea89c114848d1fd6b77f6d8dc6a522c7ca298bc503cab5045c998_1.mp4',
+    url: 'https://ifunny.co/fun/ZwTgEjdh2?gallery=shuffle',
+    tags: 'food - iFunny :)' },
+  { type: 'gif',
+    src: 'https://img.ifcdn.com/images/7acfe06b76d2c3c98114472941e6c3b9d21eafedcf11cc3a88f56d254f72c1f4_1.gif',
+    url: 'https://ifunny.co/fun/o1Ivg67I1?gallery=shuffle',
+    tags: 'running, treadmill - iFunny :)' },
+    { ... }
+]
 ```
 ### RequestOptions
 shuffle: boolean
