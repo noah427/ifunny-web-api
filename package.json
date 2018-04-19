@@ -1,7 +1,7 @@
 {
-  "name": "ifunny",
-  "version": "1.4.0",
-  "description": "Simple API for iFunny",
+  "name": "ifunny-web-api",
+  "version": "1.0.0",
+  "description": "Simple API for https://ifunny.co/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "ifunny",
-    "api"
+    "api",
+    "web"
   ],
   "author": "bakapear",
   "license": "MIT",
