@@ -38,7 +38,7 @@ ifunny({shuffle: false}, function (err, res) {
 shuffle: boolean
 
 ## TODO
-- Get more than 10 results
-- Add search by tags/user
+- ~~Get more than 10 results~~
+- ~~Add search by tags/user~~
 - Add ability to get comments of a specific post
 - Get iFunny feature timer?
